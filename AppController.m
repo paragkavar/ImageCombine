@@ -55,14 +55,15 @@ static NSArray *openFiles(BOOL withDirectory)
 
 -(IBAction)selectDirectory: (id)sender{
 	NSArray * dPath = openFiles(YES);
-	
 	int i, n;
 	n = [dPath count];
 	for(i=0; i<n; i++){
-		
+		//do something with array 
 	}
-	
-	
+}
+
+-(IBAction)selectOutputDir: (id)sender{
+
 }
 
 @end

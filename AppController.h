@@ -10,15 +10,17 @@
 
 
 @interface AppController : NSObject {
+
 	NSString * baseFilePath;
+	IBOutlet NSTextField * outputDir;
 	IBOutlet NSTextField * fileName;
 	IBOutlet NSTextField * directoryName;
-
 	
 }
 
 
 -(IBAction)selectFile: (id)sender;
 -(IBAction)selectDirectory: (id)sender;
+-(IBAction)selectOutputDir: (id)sender;
 
 @end
