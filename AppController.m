@@ -10,7 +10,7 @@
 
 
 /* a simple C function that open an NSOpenPanel and return an array of selected filepath */
-static NSArray *openFiles(BOOL withDirectory, BOOL withCreate)
+static NSArray *openFiles(BOOL withDirectory, BOOL withCreate, BOOL withFiles)
 { 
     NSOpenPanel *panel;
 	
@@ -18,7 +18,7 @@ static NSArray *openFiles(BOOL withDirectory, BOOL withCreate)
     [panel setFloatingPanel:YES];
     [panel setCanChooseDirectories:withDirectory];
 	[panel setCanCreateDirectories:withCreate];
-    [panel setCanChooseFiles:YES];
+    [panel setCanChooseFiles:withFiles];
 	[panel setPrompt:(@"Choose")];
 	[panel setTitle:(@"File Selection Browser")];
 	int i = [panel runModalForTypes:nil];
@@ -41,7 +41,7 @@ static NSArray *openFiles(BOOL withDirectory, BOOL withCreate)
 
 -(IBAction)selectFile: (id)sender{
 	//system("open ~/");
-	NSArray * path = openFiles(NO,NO);
+	NSArray * path = openFiles(NO,NO,YES);
 
 	int i, n;
 	n = [path count];
@@ -53,7 +53,7 @@ static NSArray *openFiles(BOOL withDirectory, BOOL withCreate)
 }
 
 -(IBAction)selectDirectory: (id)sender{
-	NSArray * dPath = openFiles(YES,NO);
+	NSArray * dPath = openFiles(YES,NO,YES);
 	int i, n;
 	n = [dPath count];
 	for(i=0; i<n; i++){
@@ -62,10 +62,14 @@ static NSArray *openFiles(BOOL withDirectory, BOOL withCreate)
 }
 
 -(IBAction)selectOutputDir: (id)sender{
-	NSArray * dPanel = openFiles(YES, YES);
-	[outDirPath initWithString:[dPanel objectAtIndex:0]];
-	//NSLog(@"ITEM IS %@", outDirPath);
-	[outputDir setStringValue: outDirPath];
+	NSArray * dPanel = openFiles(YES, YES,NO);
+	int i, n;
+	n = [dPanel count];
+	for(i=0; i<n; i++){
+		[outDirPath initWithString:[dPanel objectAtIndex:i]];
+		NSLog(@"FILE IS %@",outDirPath);
+		//[outputDir setStringValue: outDirPath];
+	}
 }
 
 @end
