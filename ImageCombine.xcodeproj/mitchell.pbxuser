@@ -1,0 +1,179 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* ImageCombineAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A2CAD5F11313907D00836C16 /* ImageCombine */;
+		activeTarget = 8D1107260486CEB800E47090 /* ImageCombine */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* ImageCombine */,
+		);
+		codeSenseManager = A2CAD5FE1313909C00836C16 /* Code sense */;
+		executables = (
+			A2CAD5F11313907D00836C16 /* ImageCombine */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					466,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320050995;
+			PBXWorkspaceStateSaveDate = 320050995;
+		};
+		perUserProjectItems = {
+			A2CAD607131393DE00836C16 = A2CAD607131393DE00836C16 /* PBXTextBookmark */;
+			A2CAD608131393DE00836C16 = A2CAD608131393DE00836C16 /* PBXTextBookmark */;
+			A2CAD60A131393DE00836C16 = A2CAD60A131393DE00836C16 /* PBXTextBookmark */;
+			A2CAD6231313952200836C16 = A2CAD6231313952200836C16 /* PBXTextBookmark */;
+			A2CAD6241313952200836C16 = A2CAD6241313952200836C16 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A2CAD5FD1313909C00836C16 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* ImageCombine */ = {
+		activeExec = 0;
+		executables = (
+			A2CAD5F11313907D00836C16 /* ImageCombine */,
+		);
+	};
+	A2CAD5F11313907D00836C16 /* ImageCombine */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ImageCombine;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A2CAD5FD1313909C00836C16 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A2CAD5FE1313909C00836C16 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A2CAD5FF1313909D00836C16 /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {644, 510}}";
+			sepNavSelRange = "{365, 0}";
+			sepNavVisRange = "{0, 365}";
+		};
+	};
+	A2CAD6001313909D00836C16 /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {644, 871}}";
+			sepNavSelRange = "{892, 0}";
+			sepNavVisRange = "{0, 621}";
+		};
+	};
+	A2CAD607131393DE00836C16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* ImageCombineAppDelegate.h */;
+		name = "ImageCombineAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 326;
+		vrLoc = 0;
+	};
+	A2CAD608131393DE00836C16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A2CAD609131393DE00836C16 /* AppController.m */;
+		name = "AppController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 2742;
+	};
+	A2CAD609131393DE00836C16 /* AppController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AppController.m;
+		path = /Users/mitchell/Downloads/ContentBurn/AppController.m;
+		sourceTree = "<absolute>";
+	};
+	A2CAD60A131393DE00836C16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A2CAD5FF1313909D00836C16 /* AppController.h */;
+		name = "AppController.h: 24";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	A2CAD6231313952200836C16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A2CAD6001313909D00836C16 /* AppController.m */;
+		name = "AppController.m: 56";
+		rLen = 0;
+		rLoc = 892;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 0;
+	};
+	A2CAD6241313952200836C16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A2CAD5FF1313909D00836C16 /* AppController.h */;
+		name = "AppController.h: 24";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+}
