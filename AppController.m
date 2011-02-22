@@ -41,6 +41,7 @@ static NSArray *openFiles(BOOL withDirectory)
 
 
 -(IBAction)selectFile: (id)sender{
+	//system("open ~/");
 	NSArray * path = openFiles(NO);
 
 	int i, n;
