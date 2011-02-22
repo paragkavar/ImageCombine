@@ -10,13 +10,14 @@
 
 
 /* a simple C function that open an NSOpenPanel and return an array of selected filepath */
-static NSArray *openFiles(BOOL withDirectory)
+static NSArray *openFiles(BOOL withDirectory, BOOL withCreate)
 { 
     NSOpenPanel *panel;
 	
     panel = [NSOpenPanel openPanel];        
     [panel setFloatingPanel:YES];
     [panel setCanChooseDirectories:withDirectory];
+	[panel setCanCreateDirectories:withCreate];
     [panel setCanChooseFiles:YES];
 	[panel setPrompt:(@"Choose")];
 	[panel setTitle:(@"File Selection Browser")];
@@ -42,7 +43,7 @@ static NSArray *openFiles(BOOL withDirectory)
 
 -(IBAction)selectFile: (id)sender{
 	//system("open ~/");
-	NSArray * path = openFiles(NO);
+	NSArray * path = openFiles(NO,NO);
 
 	int i, n;
 	n = [path count];
@@ -54,7 +55,7 @@ static NSArray *openFiles(BOOL withDirectory)
 }
 
 -(IBAction)selectDirectory: (id)sender{
-	NSArray * dPath = openFiles(YES);
+	NSArray * dPath = openFiles(YES,NO);
 	int i, n;
 	n = [dPath count];
 	for(i=0; i<n; i++){
@@ -63,7 +64,10 @@ static NSArray *openFiles(BOOL withDirectory)
 }
 
 -(IBAction)selectOutputDir: (id)sender{
+	NSArray * dPanel = openFiles(YES, YES);
 
+	
+	
 }
 
 @end

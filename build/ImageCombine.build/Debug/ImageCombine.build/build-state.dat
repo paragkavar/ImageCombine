@@ -1,7 +1,7 @@
 TImageCombine
 v7
 r0
-t320055071.607692
+t320057182.214488
 cCheck dependencies
 cProcessInfoPlistFile /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/Info.plist ImageCombine-Info.plist
 cCopyStringsFile /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -29,15 +29,15 @@ t1243557219
 s42464
 
 N/Users/mitchell/Desktop/ImageCombine/AppController.h
-c000000004D636F5F0000000000000189
-t1298362207
-s393
+c000000004D63705D00000000000001D4
+t1298362461
+s468
 i<Cocoa/Cocoa.h>
 
 N/Users/mitchell/Desktop/ImageCombine/AppController.m
-c000000004D636DE100000000000004A4
-t1298361825
-s1188
+c000000004D6377DB0000000000000555
+t1298364379
+s1365
 i"AppController.h"
 
 N/Users/mitchell/Desktop/ImageCombine/English.lproj/InfoPlist.strings
@@ -46,9 +46,9 @@ t1298356477
 s45
 
 N/Users/mitchell/Desktop/ImageCombine/English.lproj/MainMenu.xib
-c000000004D636F91000000000003102B
-t1298362257
-s200747
+c000000004D637574000000000003124C
+t1298363764
+s201292
 
 N/Users/mitchell/Desktop/ImageCombine/ImageCombineAppDelegate.h
 c000000004D6358FD0000000000000146
@@ -69,7 +69,7 @@ s155
 i<Cocoa/Cocoa.h>
 
 N/Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app
-t1298362271
+t1298364382
 s102
 
 N/Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/Info.plist
@@ -77,8 +77,8 @@ t1298356917
 s901
 
 N/Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/MacOS/ImageCombine
-t1298362271
-s16368
+t1298364382
+s16640
 
 N/Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/PkgInfo
 t1298356917
@@ -89,12 +89,12 @@ t1298356918
 s92
 
 N/Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/Resources/English.lproj/MainMenu.nib
-t1298362271
-s38272
+t1298363768
+s38295
 
 N/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/Objects-normal/x86_64/AppController.o
-t1298362271
-s22008
+t1298364382
+s22988
 
 N/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/Objects-normal/x86_64/ImageCombine.LinkFileList
 c000000004D635AB50000000000000178
@@ -126,11 +126,11 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies320055071#320055071#0(0"0(0#1#0"8613554976#0"0#
+lSLF07#2@18"Check dependencies320057181#320057181#0(0"0(0#1#0"8613412928#0"0#
 
 CCompileC build/ImageCombine.build/Debug/ImageCombine.build/Objects-normal/x86_64/AppController.o /Users/mitchell/Desktop/ImageCombine/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s320055071.453608
-e320055071.572387
+s320057181.856532
+e320057182.181279
 r1
 xCompileC
 xbuild/ImageCombine.build/Debug/ImageCombine.build/Objects-normal/x86_64/AppController.o
@@ -139,7 +139,9 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/mitchell/Desktop/ImageCombine/AppController.m320055071#320055071#0(0"0(0#0#52"/Users/mitchell/Desktop/ImageCombine/AppController.m8614231360#1546"    cd /Users/mitchell/Desktop/ImageCombine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-generated-files.hmap -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-own-target-headers.hmap -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-all-target-headers.hmap -iquote /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-project-headers.hmap -F/Users/mitchell/Desktop/ImageCombine/build/Debug -I/Users/mitchell/Desktop/ImageCombine/build/Debug/include -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/DerivedSources/x86_64 -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/DerivedSources -include /var/folders/Iu/IuA9ouZDFFeSUleU3kOcok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCombine_Prefix-hgdesrnelcbgrvedenajdygxyglq/ImageCombine_Prefix.pch -c /Users/mitchell/Desktop/ImageCombine/AppController.m -o /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/Objects-normal/x86_64/AppController.o0#
+o/Users/mitchell/Desktop/ImageCombine/AppController.m: In function '-[AppController selectOutputDir:]':
+o/Users/mitchell/Desktop/ImageCombine/AppController.m:67: warning: unused variable 'dPanel'
+lSLF07#2@60"Compile /Users/mitchell/Desktop/ImageCombine/AppController.m320057181#320057182#0(194"/Users/mitchell/Desktop/ImageCombine/AppController.m: In function '-[AppController selectOutputDir:]':/Users/mitchell/Desktop/ImageCombine/AppController.m:67: warning: unused variable 'dPanel'1(22@24"Unused variable 'dPanel'320057182#103#91#0(6@52"/Users/mitchell/Desktop/ImageCombine/AppController.m320057179#67#0#67#0#19"unused variable '*'0(0#0#52"/Users/mitchell/Desktop/ImageCombine/AppController.m8621764672#1546"    cd /Users/mitchell/Desktop/ImageCombine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-generated-files.hmap -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-own-target-headers.hmap -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-all-target-headers.hmap -iquote /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-project-headers.hmap -F/Users/mitchell/Desktop/ImageCombine/build/Debug -I/Users/mitchell/Desktop/ImageCombine/build/Debug/include -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/DerivedSources/x86_64 -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/DerivedSources -include /var/folders/Iu/IuA9ouZDFFeSUleU3kOcok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCombine_Prefix-hgdesrnelcbgrvedenajdygxyglq/ImageCombine_Prefix.pch -c /Users/mitchell/Desktop/ImageCombine/AppController.m -o /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/Objects-normal/x86_64/AppController.o0#
 
 CCompileC build/ImageCombine.build/Debug/ImageCombine.build/Objects-normal/x86_64/ImageCombineAppDelegate.o /Users/mitchell/Desktop/ImageCombine/ImageCombineAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s320049720.669349
@@ -168,12 +170,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@51"Compile /Users/mitchell/Desktop/ImageCombine/main.m320049720#320049720#0(0"0(0#0#43"/Users/mitchell/Desktop/ImageCombine/main.m8618461664#1528"    cd /Users/mitchell/Desktop/ImageCombine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-generated-files.hmap -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-own-target-headers.hmap -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-all-target-headers.hmap -iquote /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-project-headers.hmap -F/Users/mitchell/Desktop/ImageCombine/build/Debug -I/Users/mitchell/Desktop/ImageCombine/build/Debug/include -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/DerivedSources/x86_64 -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/DerivedSources -include /var/folders/Iu/IuA9ouZDFFeSUleU3kOcok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCombine_Prefix-hgdesrnelcbgrvedenajdygxyglq/ImageCombine_Prefix.pch -c /Users/mitchell/Desktop/ImageCombine/main.m -o /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/Objects-normal/x86_64/main.o0#
 
 CCompileXIB /Users/mitchell/Desktop/ImageCombine/English.lproj/MainMenu.xib
-s320055071.093578
-e320055071.453281
+s320056568.426554
+e320056568.736218
 r1
 xCompileXIB
 x/Users/mitchell/Desktop/ImageCombine/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib320055071#320055071#0(0"0(0#0#63"/Users/mitchell/Desktop/ImageCombine/English.lproj/MainMenu.xib8614949024#363"    cd /Users/mitchell/Desktop/ImageCombine    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/Resources/English.lproj/MainMenu.nib /Users/mitchell/Desktop/ImageCombine/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib320056568#320056568#0(0"0(0#0#63"/Users/mitchell/Desktop/ImageCombine/English.lproj/MainMenu.xib8616214464#363"    cd /Users/mitchell/Desktop/ImageCombine    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/Resources/English.lproj/MainMenu.nib /Users/mitchell/Desktop/ImageCombine/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
 
 CCopyStringsFile /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 s320049717.936891
@@ -185,14 +187,14 @@ xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings320049717#320049718#0(0"0(0#0#68"/Users/mitchell/Desktop/ImageCombine/English.lproj/InfoPlist.strings8616729760#366"    cd /Users/mitchell/Desktop/ImageCombine    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/Resources/English.lproj0#
 
 CLd /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/MacOS/ImageCombine normal x86_64
-s320055071.572465
-e320055071.605453
+s320057182.181356
+e320057182.212303
 r1
 xLd
 x/Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/MacOS/ImageCombine
 xnormal
 xx86_64
-lSLF07#2@98"Link /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/MacOS/ImageCombine320055071#320055071#0(0"0(0#0#0"8612359296#557"    cd /Users/mitchell/Desktop/ImageCombine    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/mitchell/Desktop/ImageCombine/build/Debug -F/Users/mitchell/Desktop/ImageCombine/build/Debug -filelist /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/Objects-normal/x86_64/ImageCombine.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/MacOS/ImageCombine0#
+lSLF07#2@98"Link /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/MacOS/ImageCombine320057182#320057182#0(0"0(0#0#0"8626032224#557"    cd /Users/mitchell/Desktop/ImageCombine    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/mitchell/Desktop/ImageCombine/build/Debug -F/Users/mitchell/Desktop/ImageCombine/build/Debug -filelist /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/Objects-normal/x86_64/ImageCombine.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/MacOS/ImageCombine0#
 
 CProcessInfoPlistFile /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app/Contents/Info.plist ImageCombine-Info.plist
 s320049717.916620
@@ -217,10 +219,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile ImageCombine_Prefix.pch320049718#320049720#0(0"0(0#0#60"/Users/mitchell/Desktop/ImageCombine/ImageCombine_Prefix.pch8613053856#1431"    cd /Users/mitchell/Desktop/ImageCombine    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-generated-files.hmap -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-own-target-headers.hmap -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-all-target-headers.hmap -iquote /Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/ImageCombine-project-headers.hmap -F/Users/mitchell/Desktop/ImageCombine/build/Debug -I/Users/mitchell/Desktop/ImageCombine/build/Debug/include -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/DerivedSources/x86_64 -I/Users/mitchell/Desktop/ImageCombine/build/ImageCombine.build/Debug/ImageCombine.build/DerivedSources -c /Users/mitchell/Desktop/ImageCombine/ImageCombine_Prefix.pch -o /var/folders/Iu/IuA9ouZDFFeSUleU3kOcok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageCombine_Prefix-hgdesrnelcbgrvedenajdygxyglq/ImageCombine_Prefix.pch.gch0#
 
 CTouch /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app
-s320055071.605529
-e320055071.607661
+s320057182.212389
+e320057182.214460
 r1
 xTouch
 x/Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app
-lSLF07#2@71"Touch /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app320055071#320055071#0(0"0(0#0#0"8623567424#132"    cd /Users/mitchell/Desktop/ImageCombine    /usr/bin/touch -c /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app0#
+lSLF07#2@71"Touch /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app320057182#320057182#0(0"0(0#0#0"8622060928#132"    cd /Users/mitchell/Desktop/ImageCombine    /usr/bin/touch -c /Users/mitchell/Desktop/ImageCombine/build/Debug/ImageCombine.app0#
 

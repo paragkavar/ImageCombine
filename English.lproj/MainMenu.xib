@@ -1425,18 +1425,18 @@
 								<reference key="NSTextColor" ref="958128706"/>
 							</object>
 						</object>
-						<object class="NSButton" id="893435021">
+						<object class="NSButton" id="358095788">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{141, 100}, {145, 19}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="267313501">
+							<object class="NSButtonCell" key="NSCell" id="641315942">
 								<int key="NSCellFlags">-2080244224</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">OutPut Directory</string>
 								<reference key="NSSupport" ref="228073308"/>
-								<reference key="NSControlView" ref="893435021"/>
+								<reference key="NSControlView" ref="358095788"/>
 								<int key="NSButtonFlags">-2038152961</int>
 								<int key="NSButtonFlags2">164</int>
 								<string key="NSAlternateContents"/>
@@ -1445,18 +1445,18 @@
 								<int key="NSPeriodicInterval">75</int>
 							</object>
 						</object>
-						<object class="NSTextField" id="187890083">
+						<object class="NSTextField" id="926235561">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{189, 48}, {48, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSTextFieldCell" key="NSCell" id="590500809">
+							<object class="NSTextFieldCell" key="NSCell" id="483909102">
 								<int key="NSCellFlags">68288064</int>
 								<int key="NSCellFlags2">272630784</int>
 								<string key="NSContents">OutPut</string>
 								<reference key="NSSupport" ref="432991517"/>
-								<reference key="NSControlView" ref="187890083"/>
+								<reference key="NSControlView" ref="926235561"/>
 								<reference key="NSBackgroundColor" ref="726524156"/>
 								<reference key="NSTextColor" ref="958128706"/>
 							</object>
@@ -2195,11 +2195,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">selectFile:</string>
+						<string key="label">selectOutputDir:</string>
 						<reference key="source" ref="995060125"/>
-						<reference key="destination" ref="893435021"/>
+						<reference key="destination" ref="358095788"/>
 					</object>
-					<int key="connectionID">550</int>
+					<int key="connectionID">553</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2760,8 +2760,8 @@
 							<reference ref="32386188"/>
 							<reference ref="117975475"/>
 							<reference ref="569623406"/>
-							<reference ref="893435021"/>
-							<reference ref="187890083"/>
+							<reference ref="358095788"/>
+							<reference ref="926235561"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3314,31 +3314,31 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">548</int>
-						<reference key="object" ref="893435021"/>
+						<reference key="object" ref="358095788"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="267313501"/>
+							<reference ref="641315942"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">549</int>
-						<reference key="object" ref="267313501"/>
-						<reference key="parent" ref="893435021"/>
+						<reference key="object" ref="641315942"/>
+						<reference key="parent" ref="358095788"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">551</int>
-						<reference key="object" ref="187890083"/>
+						<reference key="object" ref="926235561"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="590500809"/>
+							<reference ref="483909102"/>
 						</object>
 						<reference key="parent" ref="439893737"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">552</int>
-						<reference key="object" ref="590500809"/>
-						<reference key="parent" ref="187890083"/>
+						<reference key="object" ref="483909102"/>
+						<reference key="parent" ref="926235561"/>
 					</object>
 				</object>
 			</object>
@@ -3891,7 +3891,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">552</int>
+			<int key="maxID">553</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3905,9 +3905,11 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>selectDirectory:</string>
 							<string>selectFile:</string>
+							<string>selectOutputDir:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -3918,6 +3920,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>selectDirectory:</string>
 							<string>selectFile:</string>
+							<string>selectOutputDir:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -3929,6 +3932,10 @@
 								<string key="name">selectFile:</string>
 								<string key="candidateClassName">id</string>
 							</object>
+							<object class="IBActionInfo">
+								<string key="name">selectOutputDir:</string>
+								<string key="candidateClassName">id</string>
+							</object>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">
@@ -3937,9 +3944,11 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>directoryName</string>
 							<string>fileName</string>
+							<string>outputDir</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>NSTextField</string>
 							<string>NSTextField</string>
 							<string>NSTextField</string>
 						</object>
@@ -3950,6 +3959,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>directoryName</string>
 							<string>fileName</string>
+							<string>outputDir</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -3959,6 +3969,10 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">fileName</string>
+								<string key="candidateClassName">NSTextField</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">outputDir</string>
 								<string key="candidateClassName">NSTextField</string>
 							</object>
 						</object>
