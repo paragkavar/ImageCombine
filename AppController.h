@@ -12,6 +12,7 @@
 @interface AppController : NSObject {
 
 	NSString * baseFilePath;
+	NSString * outDirPath;
 	IBOutlet NSTextField * outputDir;
 	IBOutlet NSTextField * fileName;
 	IBOutlet NSTextField * directoryName;

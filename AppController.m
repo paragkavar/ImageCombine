@@ -39,8 +39,6 @@ static NSArray *openFiles(BOOL withDirectory, BOOL withCreate)
 }
 
 
-
-
 -(IBAction)selectFile: (id)sender{
 	//system("open ~/");
 	NSArray * path = openFiles(NO,NO);
@@ -48,7 +46,7 @@ static NSArray *openFiles(BOOL withDirectory, BOOL withCreate)
 	int i, n;
 	n = [path count];
 	for(i=0; i<n; i++){
-		[fileName setStringValue:[path objectAtIndex:i]];
+		[fileName setStringValue:[[path objectAtIndex:i] lastPathComponent]];
 		[baseFilePath initWithString:[path objectAtIndex:i]];
 	}
 	
@@ -65,9 +63,9 @@ static NSArray *openFiles(BOOL withDirectory, BOOL withCreate)
 
 -(IBAction)selectOutputDir: (id)sender{
 	NSArray * dPanel = openFiles(YES, YES);
-
-	
-	
+	[outDirPath initWithString:[dPanel objectAtIndex:0]];
+	//NSLog(@"ITEM IS %@", outDirPath);
+	[outputDir setStringValue: outDirPath];
 }
 
 @end
