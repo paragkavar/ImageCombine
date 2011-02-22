@@ -10,9 +10,10 @@
 
 
 @interface AppController : NSObject {
-
+	NSString * baseFilePath;
 	IBOutlet NSTextField * fileName;
 	IBOutlet NSTextField * directoryName;
+
 	
 }
 

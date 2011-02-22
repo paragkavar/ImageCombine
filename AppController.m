@@ -47,12 +47,19 @@ static NSArray *openFiles(BOOL withDirectory)
 	n = [path count];
 	for(i=0; i<n; i++){
 		[fileName setStringValue:[path objectAtIndex:i]];
+		[baseFilePath initWithString:[path objectAtIndex:i]];
 	}
 	
 }
 
 -(IBAction)selectDirectory: (id)sender{
-	NSArray * path = openFiles(YES);	
+	NSArray * dPath = openFiles(YES);
+	
+	int i, n;
+	n = [dPath count];
+	for(i=0; i<n; i++){
+		
+	}
 	
 	
 }
